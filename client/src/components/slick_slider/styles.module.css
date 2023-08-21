@@ -1,0 +1,14 @@
+.WantedSlider .slick-slider img {
+  margin: auto;
+  width: 100%;
+}
+.WantedSlider .slick-slider .slick-track {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.WantedSlider .slick-slider .slick-dots li button:before {
+  font-size: 14px;
+  line-height: 20px;
+  color: #757575;
+}

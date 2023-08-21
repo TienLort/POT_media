@@ -1,0 +1,20 @@
+.FooterBanner {
+  height: 300px;
+  position: relative;
+}
+.FooterBanner > img {
+  height: 100%;
+  object-fit: cover;
+
+  width: 100%;
+}
+.FooterSubBanner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+}
+.FooterSubBanner > img {
+  height: 100%;
+}

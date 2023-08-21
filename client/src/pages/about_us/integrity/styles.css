@@ -1,0 +1,45 @@
+.integrity_wrap {
+  background-image: url("src/assets/images/skyrim-pan.jpg");
+  background-size: cover;
+  height: 300px;
+  background-color: #1c1c1c;
+  background-position: 50%;
+  background-repeat: no-repeat;
+
+  position: relative;
+}
+
+.integrity_container {
+  display: flex;
+  justify-content: flex-end;
+}
+.integrity_title {
+  font-size: 28px;
+  font-weight: 600;
+  position: relative;
+  margin-top: 20px;
+}
+
+.integrity_title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 40px;
+  height: 4px;
+  background-color: orange;
+}
+.integrity_block {
+  background-color: #e0e0e0;
+  padding: 28px 40px;
+  width: 380px;
+  position: relative;
+  bottom: -64px;
+  right: 64px;
+}
+
+.integrity_block > p {
+  text-align: center;
+  font-size: 17px;
+  margin: 20px 0 20px;
+}

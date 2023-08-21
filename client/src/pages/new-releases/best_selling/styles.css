@@ -1,0 +1,16 @@
+.release_title {
+  font-size: 28px;
+  display: inline-block;
+  margin: 36px 0 18px;
+}
+.release_desc {
+  color: #75759e;
+}
+
+.release_products {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}

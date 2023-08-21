@@ -1,0 +1,26 @@
+.official_wrap {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: flex-start;
+}
+.official_image {
+  border-radius: 10px;
+  flex-grow: 1;
+  overflow: hidden;
+  background-color: #8d8d8d;
+}
+.official_image > img {
+  width: 50px;
+  cursor: pointer;
+  display: block;
+  padding: 18px 0;
+  margin: auto;
+}
+.official_deal {
+  background-color: #546e7a;
+  color: #fff;
+  text-align: center;
+  padding: 4px 0;
+}

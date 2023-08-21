@@ -1,0 +1,96 @@
+.ranking_container {
+  display: flex;
+  gap: 20px;
+}
+.ranking_container > div {
+  flex: 1;
+}
+.top_review-title,
+.most_wishlist-title {
+  font-size: 24px;
+  display: inline-block;
+  margin: 36px 0 18px;
+}
+.top_review-image {
+  width: 150px;
+}
+.top_review-image > img {
+  display: block;
+  height: 100%;
+}
+.ranking_container li {
+  display: flex;
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.ranking_container li:hover {
+  background-color: #f0f0f0;
+}
+
+.ranking_container li > div:last-child {
+  flex: 1;
+  padding-left: 8px;
+  position: relative;
+}
+.top_review-number {
+  background-color: #6c3;
+  color: #fff;
+  font-size: 22px;
+  width: 50px;
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  flex-shrink: 0;
+  font-weight: 700;
+  justify-content: center;
+  margin-right: 5px;
+  min-height: 80px;
+  transition: all 0.2s ease;
+}
+
+.date_release {
+  color: #9e9e9e;
+  font-size: 13px;
+  line-height: 22px;
+}
+
+.platform {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  align-items: center;
+  height: 42px;
+}
+.top_review .platform img,
+.most_wishlist .platform img {
+  width: 64px;
+  height: 20px;
+  display: block;
+}
+.top_review-price {
+  display: flex;
+  align-items: center;
+}
+
+.platform > button {
+  display: none;
+}
+.add_wishlist {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.add_wishlist:hover {
+  color: orange;
+}
+
+.ranking_container li:hover .platform > button,
+.ranking_container li:hover .add_wishlist {
+  display: block;
+}
+
+.ranking_container li:hover .top_review-price,
+.add_wishlist {
+  display: none;
+}

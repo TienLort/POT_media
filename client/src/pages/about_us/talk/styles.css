@@ -1,0 +1,84 @@
+.talk_wrap {
+  height: 100%;
+  max-width: 1480px !important;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.talk_title {
+  font-size: 28px;
+  text-align: center;
+  font-weight: 600;
+  position: relative;
+  margin-top: 60px;
+}
+
+.talk_title::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -6px;
+  width: 40px;
+  height: 4px;
+  background-color: orange;
+  transform: translateX(-50%);
+}
+
+.talk_wrap > p {
+  text-align: center;
+  font-size: 17px;
+  margin: 20px 0 20px;
+}
+.talk_svg {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 80px;
+}
+
+.contact_block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  margin: 20px 0px 30px;
+}
+.contact_block > div {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ececec;
+  padding: 32px 0;
+}
+
+.contact_block-heading {
+  position: relative;
+}
+
+.contact_block-heading::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -16px;
+  width: 40px;
+  height: 4px;
+  background-color: orange;
+  transform: translateX(-50%);
+}
+
+.contact_block-heading .title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.contact_block-heading .desc {
+  margin-top: 12px;
+}
+.contact_block-email {
+  margin-top: 42px;
+  color: orange;
+}

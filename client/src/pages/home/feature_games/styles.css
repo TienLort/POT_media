@@ -1,0 +1,49 @@
+.feature-games {
+  width: 100%;
+  display: flex;
+}
+
+.feature-games .slide {
+  height: 60vh;
+  border-radius: 20px;
+  margin: 10px;
+  cursor: pointer;
+  color: white;
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  transition: all 0.75s ease-in-out;
+  overflow: hidden;
+}
+
+.feature-games .slide:hover {
+  transform: scale(1.02, 1.05);
+}
+
+.feature-games .slide h3 {
+  font-size: 24px;
+  margin: 0;
+  opacity: 0;
+}
+
+.feature-games .slide.active {
+  flex: 12;
+}
+
+.feature-games .slide.active h3 {
+  opacity: 1;
+}
+
+.feature-games .slide .game-info {
+  opacity: 0;
+  width: 0;
+  transition: all 0.3s ease-in 0.15s;
+}
+.feature-games .slide.active .game-info {
+  width: 40%;
+  background-color: red;
+  opacity: 1;
+  transition: all 0.3s ease-in 0.75s;
+}

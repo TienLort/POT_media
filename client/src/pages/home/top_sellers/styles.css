@@ -1,0 +1,10 @@
+.top-seller-wrap {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.top-seller-subwrap {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}

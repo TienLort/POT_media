@@ -1,0 +1,10 @@
+.bundles_title {
+  font-size: 36px;
+  font-weight: 400;
+  margin: 20px 0;
+}
+.bundles_list {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}

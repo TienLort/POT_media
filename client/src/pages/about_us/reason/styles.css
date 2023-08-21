@@ -1,0 +1,74 @@
+.reason_wrap {
+  background-color: #e0e0e0;
+  box-shadow: inset 20px 0 0 20px #fff;
+}
+
+.reason_container {
+  height: 100%;
+  max-width: 1480px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reason_container > div {
+  width: 50%;
+}
+
+.reason_left {
+  height: 350px;
+  position: relative;
+}
+
+.reason_right {
+  padding-right: 170px;
+}
+
+.reason_left::before {
+  background-image: url("src/assets/images/About-Us-SECTION-BANNER-2023.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0;
+  content: "";
+  height: 100%;
+  position: absolute;
+  right: 0;
+  width: 200%;
+}
+
+.reason_title {
+  font-size: 28px;
+  font-weight: 600;
+  position: relative;
+  margin-top: 20px;
+}
+
+.reason_title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 40px;
+  height: 4px;
+  background-color: orange;
+}
+
+.reason_desc {
+  font-size: 16px;
+  margin: 20px 0 20px;
+}
+.reason_svg {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 80px;
+}
+
+.fanatical_icon {
+  padding: 0 156px;
+}
+.star_icon {
+  background-color: #000;
+  border-radius: 50%;
+}

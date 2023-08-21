@@ -1,0 +1,50 @@
+.wishlist_title {
+  font-size: 36px;
+  color: orange;
+  font-weight: 400;
+  margin: 20px 0;
+}
+.wishlist_box {
+  width: 100%;
+  padding: 56px;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wishlist_box-intro {
+  margin: 0 auto 16px;
+  max-width: 850px;
+  font-size: 14px;
+  text-align: center;
+}
+.wishlist_selling-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 16px;
+  width: 100%;
+}
+
+.wishlist-sell-box {
+  background-color: #fff;
+  display: flex;
+  margin-bottom: 1rem;
+  max-width: 700px;
+  padding: 14px;
+  width: 100%;
+  align-items: center;
+}
+.wishlist-sell-icon {
+  margin-right: 24px;
+}
+
+.wishlist-sell-title {
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.wishlist-sell-subtitle {
+  font-size: 14px;
+}

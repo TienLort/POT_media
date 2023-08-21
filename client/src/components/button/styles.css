@@ -1,0 +1,29 @@
+/* CusButton */
+.CusButton {
+  width: fit-content;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: transparent;
+  color: "hsl(0, 0%, 80%)";
+  user-select: none;
+  cursor: pointer;
+  transition: transform 0.15s, color 0.2s;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "GT Walsheim Pro";
+}
+
+.CusButton svg {
+  transition: transform 0.2s;
+}
+
+.CusButton:hover {
+  color: #ff9f0e;
+}
+
+.CusButton:active {
+  transform: scale(0.925) !important;
+}

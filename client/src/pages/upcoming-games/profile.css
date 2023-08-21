@@ -1,0 +1,34 @@
+.upcoming_title {
+  font-size: 36px;
+  font-weight: 400;
+  margin: 20px 0;
+}
+.upcoming_row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.upcoming_row > div {
+  flex: 1;
+}
+.upcoming_sub-box {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.big-card-desc {
+  font-size: 14px;
+  height: 100px;
+  display: flex;
+  padding: 0;
+  align-items: center;
+}
+.big-card-none {
+  display: none;
+}
+
+.upcoming_list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}

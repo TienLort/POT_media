@@ -1,0 +1,16 @@
+.map_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.map_container > div {
+  flex: 1;
+}
+.map_right {
+  background-color: #ececec;
+  height: 450px;
+  padding-left: 80px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

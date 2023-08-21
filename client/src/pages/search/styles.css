@@ -1,0 +1,17 @@
+.search_box {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.search_filter {
+  width: 25%;
+}
+
+.search_result {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}

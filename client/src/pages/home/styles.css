@@ -1,0 +1,16 @@
+.Title {
+  font-size: 28px;
+  display: inline-block;
+  margin: 36px 0;
+  position: relative;
+  margin-inline: calc(clamp(10px, 3vw, 50px) + 8px);
+}
+
+.Title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 20%;
+  border-bottom: 3px solid #fff;
+}

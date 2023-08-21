@@ -1,0 +1,37 @@
+.top_seller-title {
+  font-size: 36px;
+  font-weight: 400;
+  margin: 20px 0;
+}
+.top_seller-list {
+  list-style: none;
+}
+.top_seller-list > li {
+  display: flex;
+  align-items: center;
+}
+.seller-list-number {
+  width: 13%;
+}
+
+.seller-list-image {
+  width: 22%;
+}
+
+.seller-list-image > img {
+  width: 100%;
+  display: block;
+}
+
+.seller-list-info {
+  width: 40%;
+}
+.seller-list-checkout {
+  width: 25%;
+}
+
+.seller-list-platform img {
+  width: 64px;
+  height: 20px;
+  display: block;
+}

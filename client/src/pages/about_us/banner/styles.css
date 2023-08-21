@@ -1,0 +1,52 @@
+.banner_background {
+  background-image: url("src/assets/images/About-Us-BANNER.jpg");
+  background-size: cover;
+  height: 450px;
+  align-items: center;
+  background-position: 50% !important;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+}
+.background_title {
+  font-size: 30px;
+  background-color: rgba(255, 152, 0, 0.9);
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 16px 40px;
+}
+
+.background_subtitle {
+  font-size: 24px;
+  background-color: #1c1c1c;
+  font-weight: 500;
+  padding: 8px 20px;
+  margin-top: 20px;
+  color: #fff;
+}
+.about_container > div {
+  font-size: 28px;
+  text-align: center;
+  font-weight: 600;
+  position: relative;
+  margin-top: 60px;
+}
+
+.about_container > div::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -6px;
+  width: 40px;
+  height: 4px;
+  background-color: orange;
+  transform: translateX(-50%);
+}
+
+.about_container > p {
+  text-align: center;
+  margin: 20px 0 80px;
+}

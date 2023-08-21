@@ -1,0 +1,6 @@
+.great-deal-wrap {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
